@@ -1,5 +1,6 @@
 public class ConditionalState {
     static void main(String[] args) {
+
         String fruit = "Mango";
         //We can also use a string in switch case
         switch (fruit){
