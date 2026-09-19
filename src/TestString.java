@@ -20,5 +20,9 @@ public class TestString {
         String substring = name3.substring(2,9);
         System.out.println(substring);
 
+        String name4 = "   Virat Kohli   ";
+        System.out.println(name4.trim());
+        System.out.println(name4.replace("Kohli","Sharma"));
+        System.out.println(name4.contains("r"));
     }
 }
